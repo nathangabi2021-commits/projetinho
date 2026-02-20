@@ -32,10 +32,10 @@ export default function Carousel(){
 
     
         >
-            <SwiperSlide><Image fetchPriority="high" loading='lazy' src={salareuniaohotel} alt="fotoshotel" width={1350} height={1350}></Image></SwiperSlide>
-            <SwiperSlide><Image fetchPriority="high" loading='lazy' src={recepcafe}  alt="fotoshotel" width={1350} height={1350}></Image></SwiperSlide>
-            <SwiperSlide><Image fetchPriority="high" loading='lazy' src={cafemanhaa}  alt="fotoshotel" width={1350} height={1350}></Image></SwiperSlide>
-            <SwiperSlide><Image fetchPriority="high" loading='lazy' src={hotelfrente}  alt="fotoshotel" width={1350} height={1350}></Image></SwiperSlide>
+            <SwiperSlide><Image className="object-cover fill priority" src={salareuniaohotel} alt="fotoshotel" width={1350} height={1350}></Image></SwiperSlide>
+            <SwiperSlide><Image className="object-cover fill priority" src={recepcafe}  alt="fotoshotel" width={1350} height={1350}></Image></SwiperSlide>
+            <SwiperSlide><Image className="object-cover fill priority" src={cafemanhaa}  alt="fotoshotel" width={1350} height={1350}></Image></SwiperSlide>
+            <SwiperSlide><Image className="object-cover fill priority" src={hotelfrente}  alt="fotoshotel" width={1350} height={1350}></Image></SwiperSlide>
 
         </Swiper>  </span> : <h1 className='text-2xl text-center font-bold mb-4'>Nenhuma foto disponível</h1>
     return(
