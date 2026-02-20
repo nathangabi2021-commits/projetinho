@@ -17,7 +17,7 @@ export default function Carousel(){
 
 
     let carroselexiste = true
-       carroselexiste = carroselexiste ? <h1 className='text-2xl text-center font-bold mb-4'>  
+       carroselexiste = carroselexiste ? <span className='text-2xl text-center font-bold mb-4'>  
          <Swiper
             modules={[Navigation, Pagination]}
             spaceBetween={50}
@@ -37,7 +37,7 @@ export default function Carousel(){
             <SwiperSlide><Image fetchPriority="high" loading='lazy' src={cafemanhaa}  alt="fotoshotel" width={1350} height={1350}></Image></SwiperSlide>
             <SwiperSlide><Image fetchPriority="high" loading='lazy' src={hotelfrente}  alt="fotoshotel" width={1350} height={1350}></Image></SwiperSlide>
 
-        </Swiper>  </h1> : <h1 className='text-2xl text-center font-bold mb-4'>Nenhuma foto disponível</h1>
+        </Swiper>  </span> : <h1 className='text-2xl text-center font-bold mb-4'>Nenhuma foto disponível</h1>
     return(
  
           <section> 
