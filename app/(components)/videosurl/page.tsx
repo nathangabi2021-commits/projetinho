@@ -7,8 +7,8 @@ export default function VideosUrl(){
 
   useEffect(() => {
     // Se o script já existe, só processa
-    if (window.instgrm) {
-      window.instgrm.Embeds.process();
+    if ((window as any).instgrm) {
+      (window as any).instgrm.Embeds.process();
       return;
     }
 
@@ -17,8 +17,8 @@ export default function VideosUrl(){
     script.src = "https://www.instagram.com/embed.js";
     script.async = true;
     script.onload = () => {
-      if (window.instgrm) {
-        window.instgrm.Embeds.process();
+      if ((window as any).instgrm) {
+       (window as any).instgrm.Embeds.process();
       }
     };
 

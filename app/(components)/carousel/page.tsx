@@ -30,7 +30,6 @@ export default function Carousel(){
             slidesPerView={1}
             onSwiper={() => setIsReady(true)}
             className={isReady ? 'opacity-100' : 'opacity-0'}
-            className={{transition: 'opacity 0.3s ease'}}
             observeParents={true}
             observer={true}
             navigation
