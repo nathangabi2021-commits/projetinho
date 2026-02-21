@@ -16,8 +16,6 @@ export default function Carousel(){
     const [isReady, setIsReady] = useState(false);    
 
 
-    let carroselexiste = true
-       carroselexiste = carroselexiste ? <span className='text-2xl text-center font-bold mb-4'>  
          <Swiper
             modules={[Navigation, Pagination]}
             spaceBetween={50}
@@ -37,13 +35,11 @@ export default function Carousel(){
             <SwiperSlide><Image className="object-cover fill priority" src={cafemanhaa}  alt="fotoshotel" width={1350} height={1350}></Image></SwiperSlide>
             <SwiperSlide><Image className="object-cover fill priority" src={hotelfrente}  alt="fotoshotel" width={1350} height={1350}></Image></SwiperSlide>
 
-        </Swiper>  </span> : <h1 className='text-2xl text-center font-bold mb-4'>Nenhuma foto disponível</h1>
+        </Swiper> 
     return(
  
           <section> 
-
-            {carroselexiste ? carroselexiste : <p>Nenhuma foto disponível</p>}
-
+ 
           </section>
 
     )
