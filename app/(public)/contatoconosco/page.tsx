@@ -2,6 +2,7 @@ import Image from "next/image"
 import marketings from "./marketing.png"
 import whats from "./whatsapp.png"
 import gmail from "./gmail.png"
+
 export default function EntreEmContato(){
     return(
         <section className="flex justify-center   ...">

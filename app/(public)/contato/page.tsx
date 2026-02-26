@@ -1,6 +1,7 @@
 import Link from "next/link";
 import localhotel from "./local.png"
 import Image from "next/image";
+
 export default function Contato(){
     return (
         <section className="flex flex-col m-6  ...">

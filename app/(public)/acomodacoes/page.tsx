@@ -1,6 +1,7 @@
 import Image from "next/image"
 import singlecamas from "./singlesingle.png"
 import executivocasal from "./executivo.png"
+import setabaixos from "./setabaixo.png"
 import stdluxos from "./stdluxo.png"
 export default function Acomodacoes(){
     return(
@@ -150,10 +151,13 @@ export default function Acomodacoes(){
          <hr />
 
         <div className="flex flex-col text-center p-2 m-4 gap-5   ...">
-        <span>Politica de cancelamento e alteração</span> 
+        <p>Politica de cancelamento e alteração</p> 
 
 
-         <span>SAIBA MAIS</span>
+         <p  className="flex flex-row gap-2 justify-center ...">
+            SAIBA MAIS <span>  <Image className="m-auto"  src={setabaixos} alt="Marketing" width={27} height={50} /></span>
+          
+         </p>
         </div>
 
          <hr />
@@ -163,10 +167,13 @@ export default function Acomodacoes(){
 
           <hr />
         <div className="flex flex-col text-center p-2 m-4 gap-5   ...">
-        <span>Observações</span> 
+          <p>Observações </p>
 
 
-         <span>SAIBA MAIS</span>
+  
+           <p className="flex flex-row gap-2 justify-center ..."> SAIBA MAIS <span> <Image className="m-auto"  src={setabaixos} alt="Marketing" width={27} height={50} /> </span></p>
+            
+       
         </div>
 
          <hr />
