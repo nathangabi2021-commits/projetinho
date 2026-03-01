@@ -2,7 +2,6 @@ import Image from "next/image";
 import apresentacao from "./apresent.png"
 import eventss from "./events.png"
 import Carousel from "@/app/(components)/carousel/page";
-import VideosUrl from "@/app/(components)/videosurl/page";
 export default function Home(){
     return(
         <main >
@@ -38,9 +37,7 @@ export default function Home(){
                     <Image className="bg-white-200" src={eventss}  alt="logo da pagina" width={1350} 
                       height={100}/>
                  </div> 
-
-                 <VideosUrl/>
-
+ 
                 <div className="flex-row p-5 justify-items-center ...">
                     <h1 className="text-center p-4">Localização</h1>
 

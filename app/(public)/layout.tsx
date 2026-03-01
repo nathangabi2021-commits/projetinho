@@ -32,7 +32,8 @@ export default function PublicLayout({
                     <ul className="flex justify-evenly text-white ...">
                         <li><Link href="/home"><button className="bg-white-600 hover:bg-sky-500 ... w-20 h-10 ">Home</button></Link></li>
                         <Link href="/contato"><li><button className="bg-white-600 hover:bg-sky-500 ... w-30 h-10">Quem Somos</button></li></Link>
-                        <Link href="/fotos"> <li><button className="bg-white-600 hover:bg-sky-500 ... w-30 h-10">fotos</button></li></Link>
+                        <Link href="/fotos"> <li><button className="bg-white-600 hover:bg-sky-500 ... w-30 h-10">Fotos</button></li></Link>
+                        <Link href="/videosurl"> <li><button className="bg-white-600 hover:bg-sky-500 ... w-30 h-10">Videos</button></li></Link>
                         <Link href="/acomodacoes"><li><button className="bg-white-600 hover:bg-sky-500 ... w-30 h-10">Acomodações</button></li></Link>
                         <Link href="/contatoconosco"><li><button className="bg-white-600 hover:bg-sky-500 ... w-20 h-10">Contato</button></li></Link>
                     </ul>

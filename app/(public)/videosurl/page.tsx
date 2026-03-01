@@ -1,4 +1,4 @@
- "use client"
+"use client"
 import { useEffect, useRef } from 'react';
 
 export default function VideosUrl(){  
@@ -25,9 +25,9 @@ export default function VideosUrl(){
     document.body.appendChild(script);
   }, []);
     return(
-    <section className='m-10  flex flex-col  ...'>
-       <h1 className='m-5  text-center text-2xl font-bold'>----Videos / Novidades------</h1>
-        <div ref={embedRef} className='flex gap-6 ...'>  
+    <section > 
+       <h1 className='m-5  text-center text-2xl font-bold '>----Vídeos / Novidades------</h1>
+        <div ref={embedRef} className="grid grid-cols-3 gap-4 " >  
       <blockquote
         className="instagram-media"
         data-instgrm-permalink="https://www.instagram.com/reel/DUluUuPCifP/"
@@ -78,6 +78,59 @@ export default function VideosUrl(){
           width: "100%",
         }}
       ></blockquote>
+
+
+        <blockquote
+        className="instagram-media"
+        data-instgrm-permalink="https://www.instagram.com/reel/DQwf3x8DilL"
+        data-instgrm-version="14"
+        style={{
+          background: "#FFF",
+          border: 3,
+          borderRadius: "3px",
+          boxShadow:
+            "0 0 1px 0 rgba(0,0,0,0.5), 0 1px 10px 0 rgba(0,0,0,0.15)",
+          margin: "1px auto",
+          maxWidth: "540px",
+          minWidth: "326px",
+          width: "100%",
+        }}
+      ></blockquote>
+
+
+        <blockquote
+        className="instagram-media"
+        data-instgrm-permalink="https://www.instagram.com/reel/DDzzhbUJ3Lu"
+        data-instgrm-version="14"
+        style={{
+          background: "#FFF",
+          border: 3,
+          borderRadius: "3px",
+          boxShadow:
+            "0 0 1px 0 rgba(0,0,0,0.5), 0 1px 10px 0 rgba(0,0,0,0.15)",
+          margin: "1px auto",
+          maxWidth: "540px",
+          minWidth: "326px",
+          width: "100%",
+        }}
+      ></blockquote>
+
+       <blockquote
+        className="instagram-media"
+        data-instgrm-permalink="https://www.instagram.com/reel/DOrQ9n-j9Ot/"
+        data-instgrm-version="14"
+        style={{
+          background: "#FFF",
+          border: 3,
+          borderRadius: "3px",
+          boxShadow:
+            "0 0 1px 0 rgba(0,0,0,0.5), 0 1px 10px 0 rgba(0,0,0,0.15)",
+          margin: "1px auto",
+          maxWidth: "540px",
+          minWidth: "326px",
+          width: "100%",
+        }}
+      ></blockquote>
     </div>
     </section>
 
@@ -86,3 +139,5 @@ export default function VideosUrl(){
  }
 
  
+
+//

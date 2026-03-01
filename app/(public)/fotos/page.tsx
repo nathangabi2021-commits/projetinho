@@ -18,7 +18,9 @@ import reuniao from "./reuniao.png"
 import entrada from "./entrada.png"
 export default function Fotos(){
     return(
-         <div className="grid grid-cols-4 gap-4">
+        <div>
+                <h1 className='m-5  text-center text-2xl font-bold '>----Fotos / Novidades------</h1>
+             <div className="grid grid-cols-4 gap-4 ...">  
                 <div><Image src={acomodacao1} alt="acomodacao 1" width={300} height={200}/></div>
                 <div><Image src={descansar} alt="acomodacao 1" width={300} height={200}/></div>
                 <div><Image src={camaking} alt="acomodacao 1" width={300} height={200}/></div>
@@ -38,5 +40,7 @@ export default function Fotos(){
                 <div><Image src={entrada} alt="acomodacao 1" width={300} height={200}/></div>
 
          </div>
+        </div>
+
     )
 }
