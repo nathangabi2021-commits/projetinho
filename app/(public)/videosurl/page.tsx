@@ -25,9 +25,9 @@ export default function VideosUrl(){
     document.body.appendChild(script);
   }, []);
     return(
-    <section > 
+    <section className='"'> 
        <h1 className='m-5  text-center text-2xl font-bold '>----Vídeos / Novidades------</h1>
-        <div ref={embedRef} className="grid grid-cols-3 gap-4 " >  
+        <div ref={embedRef} className=" flex flex-col grid grid-cols-3 gap-4 min-h-screen ..." >  
       <blockquote
         className="instagram-media"
         data-instgrm-permalink="https://www.instagram.com/reel/DUluUuPCifP/"
